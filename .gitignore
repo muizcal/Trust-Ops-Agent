@@ -1,27 +1,81 @@
-# Node & dependencies
+@"
+# Dependencies
 node_modules/
-**/node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
 
-# Build / cache
+# Testing
+coverage/
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/build/
 .next/
-dist/
 out/
-frontend/.env
+
+# Production
+build/
+dist/
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env
+.env*.local
+.env.local
 frontend/.env.local
-frontend/.env.*.local
-frontend/.env.example
-.env.eample
 
-# Logs
-*.log
+# Vercel
+.vercel
 
-# OS / editor junk
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Sui
+Published.toml
+mainnet/
+testnet/
+devnet/
+Move.lock
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
 Thumbs.db
 
-# Sui / blockchain
-.sui/
-.move/
-target/
+# Large files
+*.node
+deployment.json
+deployment_output.txt
+objects.txt
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
+
+Write-Host "`n✅ .gitignore created!" -ForegroundColor Green
