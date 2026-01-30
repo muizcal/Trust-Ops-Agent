@@ -1,1 +1,27 @@
+# Node & dependencies
+node_modules/
 **/node_modules/
+
+# Build / cache
+.next/
+dist/
+out/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/.env.example
+.env.eample
+
+# Logs
+*.log
+
+# OS / editor junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Sui / blockchain
+.sui/
+.move/
+target/
