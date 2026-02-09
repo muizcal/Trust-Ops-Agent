@@ -30,3 +30,5 @@ deployment-result.json
 *.backup
 frontend/node_modules/
 .env.production
+out/
+frontend/node_modules/
