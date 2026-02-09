@@ -8,14 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "@mysten/dapp-kit": "^0.14.18",
-    "@mysten/sui": "^1.0.0",
-    "@tanstack/react-query": "^5.0.0",
+    "@mysten/dapp-kit": "^1.0.1",
+    "@mysten/sui": "^2.3.0",
+    "@mysten/sui.js": "^0.54.1",
+    "@tanstack/react-query": "^5.90.20",
+    "axios": "^1.6.2",
+    "lucide-react": "^0.294.0",
     "next": "14.0.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "lucide-react": "^0.294.0",
-    "axios": "^1.6.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
