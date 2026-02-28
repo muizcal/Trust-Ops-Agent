@@ -1,7 +1,0 @@
-[package]
-name = "trustops_20260131102554"
-version = "1.0.0"
-edition = "2024.beta"
-
-[addresses]
-trustops = "0x0"

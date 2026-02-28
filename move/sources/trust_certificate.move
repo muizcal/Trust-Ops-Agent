@@ -9,8 +9,8 @@ module trustops::trust_certificate {
     /// Treasury address for collecting fees
     const TREASURY: address = @0x319b22babb64339f17a550c978fe3c1bc8c37c825681744145b408f45e946ae1;
     
-    /// Minting fee: 1 USDS (6 decimals = 1,000,000)
-    const MINT_FEE: u64 = 1000000;
+    /// Minting fee: 0.1 USDS (6 decimals = 1,000,00)
+    const MINT_FEE: u64 = 100000;
     
     /// Error codes
     const E_INSUFFICIENT_PAYMENT: u64 = 1;

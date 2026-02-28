@@ -19,6 +19,7 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
     "@helia/unixfs": "^3.0.0",
     "@mysten/sui": "^1.0.0",
     "cors": "^2.8.5",
