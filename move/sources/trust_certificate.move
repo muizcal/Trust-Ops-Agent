@@ -80,7 +80,7 @@ module trustops::trust_certificate {
 
         // Create image URL
         let validation_id_str = string::utf8(validation_id);
-        let base_url = b"http://localhost:3000/api/nft-image/";
+        let base_url = b"https://trust-ops-agent-production.up.railway.app/api/nft-image/";
         let mut image_url_bytes = vector::empty<u8>();
         vector::append(&mut image_url_bytes, base_url);
         vector::append(&mut image_url_bytes, validation_id);
