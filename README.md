@@ -315,9 +315,9 @@ Contributions are welcome. Please follow these guidelines:
 
 This project is proprietary software. All rights reserved.
 
-## Contact
 
-- GitHub: https://github.com/muizcal/Trust-Ops-Agent
+
+
 - Frontend: https://trust-ops-agent.vercel.app
 - Backend: https://trust-ops-agent-production.up.railway.app
 
